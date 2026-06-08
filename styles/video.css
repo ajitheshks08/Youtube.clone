@@ -1,0 +1,57 @@
+            .thumbnail{
+                width:100%;
+                border-radius:12px;
+            }
+     
+            .video-info-grid{
+                display:grid;
+                grid-template-columns:50px 1fr;
+            
+            }
+
+
+            .about{
+                margin-top:0;
+                font-size:14px;
+                font-weight:500;
+                line-height:20px;
+                margin-bottom:10px;
+            }
+
+            .profile-picture{
+                width:36px;
+                border-radius:50px;
+            }
+            .thumbnail-row{
+                margin-bottom:8px;
+                position:relative;
+            }
+            .author,
+            .stats{
+                color:rgb(170, 170, 170);
+                font-size:12px;
+            }
+            .author{
+                margin-bottom:4px;
+            }
+            .video-grid{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 16px;
+                row-gap: 40px;
+            }
+            .video-time{
+                font-family:Roboto,Arial;
+                font-weight:500;
+                padding-bottom:2px;
+                padding-top:2px;
+                padding-right:4px;
+                padding-left:4px;
+                border-radius:4px;
+                background-color:black;
+                color:white;
+                position:absolute;
+                bottom:8px;
+                right:5px;
+            }
+            
